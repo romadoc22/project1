@@ -39,6 +39,11 @@ img {
   padding-right: 20px;
 }
 
+:root {
+  --animate-duration: 3000ms;
+  --animate-delay: 0.5s;
+}
+
 .header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -109,6 +114,12 @@ img {
   line-height: 1.25;
   text-align: center;
   color: #ffffff;
+  display: inline-block;
+  margin: 0 0.5rem;
+  -webkit-animation: bounce;
+          animation: bounce; /* referring directly to the animation's @keyframe declaration */
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s; /* don't forget to set a duration! */
 }
 
 .hero__div {

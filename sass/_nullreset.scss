@@ -36,3 +36,8 @@ img {
   padding-left: 20px;
   padding-right: 20px;
 }
+
+:root {
+  --animate-duration: 3000ms;
+  --animate-delay: 0.5s;
+}
