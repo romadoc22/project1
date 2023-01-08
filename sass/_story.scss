@@ -1,0 +1,36 @@
+.story-page {
+  display: flex;
+  background-color: #245852;
+}
+
+.story {
+  margin-left: 190px;
+}
+
+.story__title {
+  padding-top: 310px;
+  padding-bottom: 33px;
+  width: 580px;
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 1.57;
+  color: #ffffff;
+}
+
+.story__text {
+  padding-bottom: 57px;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 1.57;
+  color: #ffffff;
+}
+
+.story__img {
+  padding-top: 229px;
+  padding-left: 31px;
+  padding-bottom: 175px;
+}

@@ -1,0 +1,39 @@
+.page-hero {
+}
+
+.hero__div {
+  display: block;
+  width: 620px;
+
+  padding-top: 175px;
+  padding-left: 165px;
+  padding-bottom: 319px;
+  padding-right: auto;
+}
+
+.hero {
+  max-width: 1900px;
+  background-image: url('../img/hero.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.hero__title {
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 65px;
+  line-height: calc(74 / 65);
+  color: #01996d;
+  margin-bottom: 30px;
+}
+.hero__text {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: calc(31 / 20);
+  color: #484848;
+  margin-bottom: 18px;
+  text-align: left;
+}
